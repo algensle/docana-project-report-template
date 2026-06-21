@@ -66,7 +66,16 @@ After cleaning and tagging the raw text with spaCy, the processed corpus consist
 
 ### Setup 
 
-Our project was coded in the conda-environment "docana" as described in the beginning of the course with Python v.3.9. We used VS Code as IDE and Gitlab for collaborative work. As tokenizer and tagger we used spaCy 3.7.6 with the en_core_web_sm model.
+Our project uses the Python version 3.9.25 . It is mandatory to use this Version specifically since some Packages we used will not run if a newer version is selected. As tokenizer and tagger we used spaCy 3.7.6 with the en_core_web_sm model. In our code we used several packages to analyse our two Data sets, some of them were used to ensure a smoth import of the data like json and others like spacy for analysing purposes. We provided a full overview of all packages and versions in the  `requirements.txt` file. To run our Projekt pleas run the following to commands in your bash
+
+```bash
+pip install -r installerFile.txt
+python -m spacy download en_core_web_sm
+```
+
+###########################
+Our project was coded in the conda-environment "docana" as described in the beginning of the course with Python v.3.9. We used VS Code as IDE and Gitlab for collaborative work. As tokenizer and tagger we used spaCy 3.7.6 with the en_core_web_sm model. To fully take advantage of our Project you should be able to also display .png and .csv files in your Code editor. We recomend using Visual Studio Code.
+
 
 ```bash
 conda create --name docana python=3.9
@@ -87,7 +96,7 @@ Include a `requirements.txt` file in your project repository. This file should l
 ```bash
 pip install -r requirements.txt
 ```
-
+#############################
 ### Experiments
 
 Report how you conducted the experiments. We suggest including detailed explanations of the preprocessing steps and model training in your project. For the preprocessing, describe  data cleaning, normalization, or transformation steps you applied to prepare the dataset, along with the reasons for choosing these methods. In the section on model training, explain the methodologies and algorithms you used, detail the parameter settings and training protocols, and describe any measures taken to ensure the validity of the models.
