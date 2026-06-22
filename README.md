@@ -49,7 +49,7 @@ Since we wanted to compare formal and informal written text for our analysis, we
 
 ### Reddit Corpus
 SEBASTIAN
-Provide a short description of the dataset used in your project. Focus on highlighting the aspects that are particularly relevant to your work.
+As a Dataset for our informal written text we used Reddit as our source. We only used Redit threates and discussions in which political subjects were discussed.
 
 ### WSJ Corpus
 The Wall Street Journal (WSJ) corpus is part of the Penn Treebank (Marcus et al. 1993) and consists of journalistic text, covering business, finance and politics. For the project we used the unlabeled version which is available via NLTK:
