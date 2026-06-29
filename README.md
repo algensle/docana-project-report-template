@@ -34,7 +34,7 @@ To address this question our research questions are the following:
 
 ### Research Questions: 
 
-1. How does the POS tag frequency distribution differ between Reddit (r/politics, r/news) and the Wall Street Journal (WSJ)?
+1. How does the POS tag frequency distribution differ between Reddit and the Wall Street Journal (WSJ)?
 2. How do the transition probabilities of the POS tags differ between the two corpora?
 3. Do the observed differences reflect the expected register features?
 
@@ -178,7 +178,7 @@ Overall, the observed differences both in frequency distributions and transition
 
 ## Conclusion
 
-Our goal of this project was to compare the register of informal written text and formal written text, analysing the POS distribution and transition probabilities between the Reddit Corpus (r/politics, r/news) and the Wall Street Journal from the Penn Treebank Project. Both corpora were preprocessed in a similar pipeline and annotated with the same tagger, spaCy, to obtain comparable results. An additional manual evaluation on the Reddit dataset was conducted to account for possible erros of the automatic tagger. Frequency distributions and transition matrices were calculated to measure the different usage of POS tags in both datasets.
+Our goal of this project was to compare the register of informal written text and formal written text, analysing the POS distribution and transition probabilities between the Reddit Corpus and the Wall Street Journal from the Penn Treebank Project. Both corpora were preprocessed in a similar pipeline and annotated with the same tagger, spaCy, to obtain comparable results. An additional manual evaluation on the Reddit dataset was conducted to account for possible erros of the automatic tagger. Frequency distributions and transition matrices were calculated to measure the different usage of POS tags in both datasets.
 The main findings were that for the frequency distribution, a nominal style for the WSJ corpus could be observed in the POS tag distribution and a verbal style in the Reddit corpus, which aligns with the predictions by Biber & Conrad (2009). The transition matrices showed high NNP to NNP transitions and more complex verb structures for the WSJ corpus while the Reddit corpus showed more PRP to VBP transitions which aligns with a more personal writing style. So both corpora analyses show consistent register specific differences.
 With respect to our research questions, for RQ 1 we can observe clear frequency differences in the POS tag distribution and therefore confirm our first research question. We can confirm our RQ2 as well since the transition matrixes showed different syntactic transition patterns. These findings lead to the third research question, if the observed results reflect the expected register differences. From a result based point of view we can confirm this, as the observed differences align with the register features predicted by Biber & Conrad (2009). Nevertheless, there are several limitations which need to be mentioned:
 The first and probably most important limitation is the corpus size of our datasets. 98.492 WSJ tokens vs. 18.655 Reddit tokens is a notable limitation of our work, despite using relative numbers for the analysis. This should be kept in mind when interpreting the results.
